@@ -1,4 +1,4 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is live at [Click Me](http://resume-react.s3-website.ap-south-1.amazonaws.com/).
 
 ## Available Scripts
 
