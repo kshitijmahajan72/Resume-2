@@ -5,6 +5,7 @@ import Experience from './Experience';
 import Skills from './Skills';
 import Contact from './Contact';
 import Navbar from './Navbar';
+import Projects from './Projects';
 
 class Main extends React.Component {
     constructor(props) {
@@ -21,6 +22,7 @@ class Main extends React.Component {
                 <Profile/>
                 <About/>
                 <Experience/>
+                <Projects/>
                 <Skills/>
                 <Contact/>
                 

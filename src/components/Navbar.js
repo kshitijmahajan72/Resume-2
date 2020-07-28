@@ -4,7 +4,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div>
-                <nav className="navbar fixed-bottom mx-5 " role="navigation">
+                <nav className="navbar fixed-bottom ml-5 " role="navigation">
                 <span className="navbar-brand"></span>
                 <ul className="nav navbar-nav">
                     <li><a href="#top"><span className="fa fa-arrow-circle-up navigate"></span></a></li>

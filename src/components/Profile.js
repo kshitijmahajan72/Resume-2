@@ -6,7 +6,7 @@ class Profile extends Component {
             <div id="top" >
                 <div className='background'>
                     <div className="caption">
-                        <div>Kshitij Mahajan</div>
+                        <span>Kshitij Mahajan</span>
                     </div>
                 </div>
             </div>

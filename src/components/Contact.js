@@ -1,24 +1,11 @@
 import React from 'react';
 import Like from './Like';
-class Contact extends React.Component {
-    // constructor(props) {
-    //     super(props);
-
-    //     this.state = {
-    //         like: true,
-    //     };
-
-    // }
-
-    // counter(){
-    //     this.setState({
-    //         like : false
-    //     })
-    // }
-
+class Contact extends React.Component {  
+    
     render() {
         return (
             <div>
+                
                 <div className="contact">
                     <div className="heading1">Contact</div>
                     <span className="text-white">Let's connect. I prefer <span className="checked"><strong>Twitter DMs</strong></span> and <span className="checked"><strong>LinkedIn messages.</strong></span></span>
@@ -63,9 +50,7 @@ class Contact extends React.Component {
                         :<button className="btn btn-info"><span className="fa fa-check fa-lg"></span> Liked</button>
                     } */}
                     <Like/>
-                    <div className="my-5">
-                    This application is made in React
-                </div>
+                    
                 </div>
                 
             </div>

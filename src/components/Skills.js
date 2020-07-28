@@ -12,9 +12,9 @@ const Skills = memo(() => {
             <div className="text-left mt-4 sub-topic">
                 <div className="sub-heading">Skills</div>
                 <div className="row">
-                    <div className="col-md-5">
-                    <ul className="list-unstyled" >
-                            <li className="skills"><span>ReactJs <img src="https://img.icons8.com/ultraviolet/20/000000/react.png" alt="react"/></span>
+                    <div className="col-md-5  ">
+                    <ul className="list-unstyled mr-1" >
+                            <li className="skills checke"><span>ReactJs <img src="https://img.icons8.com/ultraviolet/20/000000/react.png" alt="react"/></span>
                                 <span className="float-right star">
                                 <span className="fa fa-star checked mx-1"></span>
                                 <span className="fa fa-star checked mx-1"></span>
@@ -23,7 +23,7 @@ const Skills = memo(() => {
                                 <span className="fa fa-star mx-1"></span>
                                 </span>
                             </li>
-                            <li className="skills"><span>Bootstrap <img src="https://img.icons8.com/color/20/000000/bootstrap.png" alt="bootstrap"/></span>
+                            <li className="skills checke"><span>Bootstrap <img src="https://img.icons8.com/color/20/000000/bootstrap.png" alt="bootstrap"/></span>
                             <span className="float-right star">
                                 <span className="fa fa-star checked mx-1"></span>
                                 <span className="fa fa-star checked mx-1"></span>
@@ -94,7 +94,7 @@ const Skills = memo(() => {
                         </ul>
                     </div>
                     <div className="col-md-5">
-                        <ul className="list-unstyled" >
+                        <ul className="list-unstyled mr-1" >
                             <li className="skills"><span>Java <img src="https://img.icons8.com/color/20/000000/java-coffee-cup-logo.png" alt="java"/></span>
                             <span className="float-right star">
                                 <span className="fa fa-star checked mx-1"></span>
@@ -172,7 +172,7 @@ const Skills = memo(() => {
                 <div className="sub-heading">Tools</div>
                 <div className="row">
                     <div className="col-md-5">
-                        <ul className="list-unstyled" >
+                        <ul className="list-unstyled mr-1" >
                         <li className="skills"><span>Eclipse <img src="https://img.icons8.com/office/20/000000/java-eclipse.png" alt="eclipse" /></span><span className="float-right star">
                                 <span className="fa fa-star checked mx-1"></span>
                                 <span className="fa fa-star checked mx-1"></span>
@@ -206,7 +206,7 @@ const Skills = memo(() => {
                         </ul>
                     </div>
                     <div className="col-md-5">
-                        <ul className="list-unstyled" >
+                        <ul className="list-unstyled mr-1" >
                         <li className="skills responsive"><span>Github <img src="https://img.icons8.com/fluent/20/000000/github.png"  alt="github"/></span><span className="float-right star">
                                 <span className="fa fa-star checked mx-1"></span>
                                 <span className="fa fa-star checked mx-1"></span>

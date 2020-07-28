@@ -5,7 +5,7 @@ const About = memo(() => {
         <div>
             <div className="profile" id="profile">
             <div className="heading">Profile</div>
-            <div className="profile-context">I am <s>IronMan</s> a Software Developer</div>
+            <div className="profile-context">I am <s>IronMan</s> a Web Developer</div>
             <hr></hr>
             <div className="my-5 row">
                 <div className="col-md-3"></div>
@@ -21,7 +21,9 @@ const About = memo(() => {
                 <div className="profile-context">
                    <div><strong>Name :</strong><div>Kshitij Mahajan</div></div>
                    <div><strong>Age :</strong><div>{time} years</div></div>
-                   <div><strong>Location :</strong><div>Jammu, J&K, India</div></div>
+                   <div><strong>Contact Number :</strong><div>+91-9796910084</div></div>
+                   
+                   <div className="mt-5"><a href={require('./resources/KshitijMahajan.pdf')} target="_blank" rel="noreferrer noopener" ><button className="btn btn-info">Resume</button></a></div>
                 </div>
                 
             </div>

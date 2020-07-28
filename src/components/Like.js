@@ -46,7 +46,7 @@ class Like extends React.Component {
         return (
             <div>
                 {
-            
+                        
                         this.state.like?<button className="btn btn-info" disabled><span className="fa fa-check fa-lg" ></span> Liked  {this.state.count}</button>
                         :<button className="btn btn-primary" onClick={this.updateLike.bind(this)}><span className="fa fa-thumbs-up fa-lg"></span> Like </button>
                     }
