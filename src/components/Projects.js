@@ -10,11 +10,11 @@ function Projects() {
                 <div className="card-deck">
                     
                     <div className="card">
-                        <img className="card-img-top" src={require('./resources/covid-19.png')} alt="covid-19" height="230px"/>
+                        <img className="card-img-top" src={require('./resources/covid-19.jpg')} alt="covid-19" height="230px"/>
                         <div className="card-body">
                         <h5 className="card-title">CoVID-19 India</h5>
                         <p className="card-text">Live tracking of CoVID-19 cases in India.</p>
-                        <p><button className="btn btn-info" data-toggle="collapse" href="#covid-19" aria-expanded="false" aria-controls="covid-19">Read More</button></p>
+                        <p><button className="btn btn-info" style={{backgroundColor:"#22A39F"}} data-toggle="collapse" href="#covid-19" aria-expanded="false" aria-controls="covid-19">Read More</button></p>
                                 <div className="collapse multi-collapse" id="covid-19">
                                     <div className="card card-body m-1" >
                                         <p>
@@ -35,11 +35,11 @@ function Projects() {
                         </div>
                     </div>
                     <div className="card">
-                        <img className="card-img-top" src={require('./resources/effortTracking.png')} alt="effortTracking" height="230px"/>
+                        <img className="card-img-top" src={require('./resources/employeeEffort.jpg')} alt="effortTracking" height="230px"/>
                         <div className="card-body">
                         <h5 className="card-title">Employee Effort Tracking System</h5>
                         <p className="card-text">Project on tracking the effort of an employee of an Education and Training firm.</p>
-                        <p><button className="btn btn-info" data-toggle="collapse" href="#effortTracking" aria-expanded="false" aria-controls="effortTracking">Read More</button></p>
+                        <p><button className="btn btn-info" style={{backgroundColor:"#22A39F"}} data-toggle="collapse" href="#effortTracking" aria-expanded="false" aria-controls="effortTracking">Read More</button></p>
                                 <div className="collapse multi-collapse" id="effortTracking">
                                     <div className="card card-body m-1" >
                                         <p>
@@ -64,7 +64,7 @@ function Projects() {
                         <div className="card-body">
                         <h5 className="card-title">Flight Booking</h5>
                         <p className="card-text">View flight details and book tickets</p>
-                        <p><button className="btn btn-info" data-toggle="collapse" href="#flightBooking" aria-expanded="false" aria-controls="flightBooking">Read More</button></p>
+                        <p><button className="btn btn-info" style={{backgroundColor:"#22A39F"}} data-toggle="collapse" href="#flightBooking" aria-expanded="false" aria-controls="flightBooking">Read More</button></p>
                                 <div className="collapse multi-collapse" id="flightBooking">
                                     <div className="card card-body m-1" >
                                         <p>
@@ -99,7 +99,7 @@ function Projects() {
                             <img className="card-img-top" src={require('./resources/quizApp.png')} alt="quizApp" height="230px"/>
                             <div className="card-body">
                             <h5 className="card-title">Quiz App</h5>
-                            <p className="card-text">It is based on smart work. I used Angular Js as front-end and Google forms as the backend. The app was integrated with google forms which has a feature of creating quiz. The user has to login using google mail id and after wards create a quiz. The quiz is shared through a link. The result can be saved in the form of excel file in Google Sheets.</p>
+                            <p className="card-text">It is based on smart work. I used <strong>Angular Js</strong> as front-end and Google forms as the backend. The app was integrated with google forms which has a feature of creating quiz. The user has to login using google mail id and after wards create a quiz. The quiz is shared through a link. The result can be saved in the form of excel file in Google Sheets.</p>
                             
                             </div>
                         </div>
@@ -107,7 +107,7 @@ function Projects() {
                             <img className="card-img-top" src={require('./resources/webScrapper.png')} alt="webScrapper" height="230px"/>
                             <div className="card-body">
                             <h5 className="card-title">Web scrapper</h5>
-                            <p className="card-text">Web Scrapping is used in a variety of digital businesses that rely on data harvesting. It is made using python tool scrapy, which scraps the data from websites and store it in excel file. It requires a little knowledge of python and frontend too.</p>
+                            <p className="card-text">Web Scrapping is used in a variety of digital businesses that rely on data harvesting. It is made using <strong>Python</strong> tool scrapy, which scraps the data from websites and store it in excel file. It requires a little knowledge of python and frontend too.</p>
                             
                             </div>
                         </div>
@@ -115,7 +115,7 @@ function Projects() {
                             <img className="card-img-top" src={require('./resources/phoneBook.jpg')} alt="phoneBook" height="230px"/>
                             <div className="card-body">
                             <h5 className="card-title">Phone Book Directory</h5>
-                            <p className="card-text">A Java project which uses data structure to store contacts. The benefit of using java is that it is cross platform and a complied java program can run on all platforms for which there exits a JVM.</p>
+                            <p className="card-text">A Java project which uses data structure to store contacts. The benefit of using <strong>Java</strong> is that it is cross platform and a complied java program can run on all platforms for which there exits a JVM.</p>
                             
                             </div>
                         </div>
@@ -123,7 +123,7 @@ function Projects() {
                             <img className="card-img-top" src={require('./resources/primer.jpg')} alt="dnaPrimer" height="230px"/>
                             <div className="card-body">
                             <h5 className="card-title">Potential Primer</h5>
-                            <p className="card-text">A primer is a short single-stranded nucleic acid utilized by all living organisms in the initiation of DNA synthesis. A DNA sequence is checked using a python program which satisfies the charactersics of a potential primer.</p>
+                            <p className="card-text">A primer is a short single-stranded nucleic acid utilized by all living organisms in the initiation of DNA synthesis. A DNA sequence is checked using a <strong>Python</strong> program which satisfies the charactersics of a potential primer.</p>
                             
                             </div>
                         </div>

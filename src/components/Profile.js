@@ -4,11 +4,12 @@ class Profile extends Component {
     render() {
         return (
             <div id="top" >
-                <div className='background'>
+                <div className='slide background'>
                     <div className="caption">
                         <span>Kshitij Mahajan</span>
                     </div>
                 </div>
+
             </div>
         );
     }

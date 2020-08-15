@@ -1,7 +1,7 @@
 import React, { memo } from 'react';
 const Experience = memo(() => {
     return (
-        <div className="experience">
+        <div className="experience pb-5">
             <div className="heading">
                 Experiences
             </div>
@@ -17,7 +17,7 @@ const Experience = memo(() => {
                     <div className="col-md-1"></div>
                     <div className="col-md-7">
                     <div><strong>Bachelor's - Computer Science</strong></div>
-                    <div className="content">The education was mostly based on Java based programming and Angular-4 as front-end, but I also learned C, CPP, SQL, React. During my time in college, I learned the importance of OOPs, web-programming and user experience and design.</div>
+                    <div className="content">The education was mostly based on Java based programming and Angular-4 as front-end, but I also learned C, C++, SQL, React. During my time in college, I learned the importance of OOPs, web-programming and user experience and design.</div>
                     <div>
                         <a href="https://bit.ly/2C6mM5W" target="_blank" rel="noreferrer noopener" className="text-decoration-none text-primary">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -36,7 +36,7 @@ const Experience = memo(() => {
                 <div className="col-md-1"></div>
                 <div className="col-md-7">
                     <div><strong>High School</strong></div>
-                    <div className="content">I graduated high school, where I enjoyed learning science and mathematics. My optional subject was Computer where I was taught CPP. I was fasinated by the idea that I could actually code to make things work. This propelled my interest in computers and pursuing Computer Science as my career.</div>
+                    <div className="content">I graduated high school, where I enjoyed learning science and mathematics. My optional subject was Computer where I was taught C++. I was fasinated by the idea that I could actually code to make things work. This propelled my interest in computers and pursuing Computer Science as my career.</div>
                     <div>
                     <a href="https://bit.ly/2ZA8IK9" target="_blank" rel="noreferrer noopener" className="text-decoration-none text-primary">
                         <svg width="1em" height="1em" viewBox="0 0 16 16" className="bi bi-geo-alt" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +49,7 @@ const Experience = memo(() => {
                 </div>
             </div>
             
-            <div className="text-left mt-4 sub-topic">
+            <div className="text-left sub-topic">
                 <div className="sub-heading">Careers</div>
                 <div className="my-3 row">
                 <div className="col-md-2">
